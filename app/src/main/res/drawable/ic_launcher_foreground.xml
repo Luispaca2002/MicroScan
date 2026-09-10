@@ -1,0 +1,105 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Esquinas del visor de escaneo inteligente (Viewfinder Corners) -->
+    <!-- Superior Izquierda -->
+    <path
+        android:pathData="M31,41 V33 A2,2 0,0 1 33,31 H41"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Superior Derecha -->
+    <path
+        android:pathData="M67,31 H75 A2,2 0,0 1 77,33 V41"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Inferior Izquierda -->
+    <path
+        android:pathData="M31,67 V75 A2,2 0,0 0 33,77 H41"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Inferior Derecha -->
+    <path
+        android:pathData="M67,77 H75 A2,2 0,0 0 77,75 V67"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Haz de escaneo horizontal láser (Scan Beam) -->
+    <path
+        android:pathData="M27,54 H81"
+        android:strokeColor="#5EEAD4"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round" />
+
+    <!-- Puntos guía en los extremos del rayo de escaneo -->
+    <path
+        android:pathData="M28,54m-1.5,0a1.5,1.5 0,1,1 3,0a1.5,1.5 0,1,1 -3,0"
+        android:fillColor="#2DD4BF" />
+    <path
+        android:pathData="M80,54m-1.5,0a1.5,1.5 0,1,1 3,0a1.5,1.5 0,1,1 -3,0"
+        android:fillColor="#2DD4BF" />
+
+    <!-- BASE DEL MICROSCOPIO / ESCÁNER -->
+    <path
+        android:pathData="M43,72 H65 A2,2 0,0 1 67,74 V75 A1,1 0,0 1 66,76 H42 A1,1 0,0 1 41,75 V74 A2,2 0,0 1 43,72 Z"
+        android:fillColor="#E2E8F0" />
+
+    <!-- PLATAFORMA / PLATINA PORTAMUESTRAS -->
+    <path
+        android:pathData="M45,63 H63 A1.5,1.5 0,0 1 64.5,64.5 V65.5 H43.5 V64.5 A1.5,1.5 0,0 1 45,63 Z"
+        android:fillColor="#94A3B8" />
+
+    <!-- COLUMNA / BRAZO CURVO DEL MICROSCOPIO -->
+    <path
+        android:pathData="M59,72 V63 C59,57 66,54 66,47 C66,42 61.5,39 57,39"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- TUBO ÓPTICO / CABEZAL -->
+    <path
+        android:pathData="M51,36 L57,41"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- OCULAR -->
+    <path
+        android:pathData="M49,34.5 L46,32"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- REVÓLVER / OBJETIVO ÓPTICO APUNTANDO A LA PLATINA -->
+    <path
+        android:pathData="M52,47 L52,55"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- MUESTRA BIOLÓGICA INTELIGENTE EN LA PLATINA (DIAMANTE BIO CON GLOW) -->
+    <path
+        android:pathData="M52,58 L54.5,61 L52,64 L49.5,61 Z"
+        android:fillColor="#10B981" />
+
+    <!-- DESTELLO DE ANÁLISIS IA (CHISPA EN EL LENTE) -->
+    <path
+        android:pathData="M61,35 L62.5,32 L64,35 L67,36.5 L64,38 L62.5,41 L61,38 L58,36.5 Z"
+        android:fillColor="#FBBF24" />
+</vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android bloquea HTTP en claro desde API 28. El backend RAG corre en la red
+  local del laboratorio y sin TLS, asi que hay que permitirlo.
+
+  Se permite en toda la app en vez de listar dominios uno por uno porque la IP
+  del servidor cambia con cada red (casa, laboratorio, hotspot) y no se puede
+  usar rangos aca. Es aceptable para una app de uso interno que solo habla con
+  un servidor de la red local; si algun dia sale a produccion, esto se
+  reemplaza por TLS.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

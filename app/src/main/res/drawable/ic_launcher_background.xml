@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Fondo con gradiente oscuro de laboratorio (Deep Navy a Bio Teal) -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="135"
+                android:startColor="#091421"
+                android:centerColor="#072023"
+                android:endColor="#042C24"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Resplandor central sutil -->
+    <path
+        android:pathData="M54,54m-44,0a44,44 0,1,1 88,0a44,44 0,1,1 -88,0"
+        android:fillColor="#0D3B3A"
+        android:strokeColor="#104F4C"
+        android:strokeWidth="0.8" />
+
+    <!-- Anillos concéntricos de radar/escaneo tecnológico -->
+    <path
+        android:pathData="M54,54m-34,0a34,34 0,1,1 68,0a34,34 0,1,1 -68,0"
+        android:strokeColor="#14B8A6"
+        android:strokeAlpha="0.25"
+        android:strokeWidth="1.2" />
+
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1,1 44,0a22,22 0,1,1 -44,0"
+        android:strokeColor="#2DD4BF"
+        android:strokeAlpha="0.35"
+        android:strokeWidth="1.0" />
+
+    <!-- Líneas guía de retícula de precisión -->
+    <path
+        android:pathData="M18,54h12 M78,54h12 M54,18v12 M54,78v12"
+        android:strokeColor="#2DD4BF"
+        android:strokeAlpha="0.3"
+        android:strokeWidth="1.2" />
+</vector>

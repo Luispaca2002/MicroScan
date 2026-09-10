@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.kotlin/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.log
+*.exe
+tools/
+
+
+# Las imagenes del dataset (267 MB) van por Drive, no por el repositorio
+dataset/*/images/
+

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Agitador Orbital JOANLAB OS-20', 'Autoclave ALL AMERICAN 25X-1', 'Balanza analitica PR Series Analytical', 'Bano maria  Memmert WNB-14', 'Cabina de flujo laminar horizontal -PIVAS- BBS-H1500B BBS-H1800B', 'Centrifugadora Sigma 201', 'Espectofotometro UV-5100B', 'Estereo Microscopio Binocular Modelo BS-80', 'Estereo Microscopio Thomas Scientific', 'Estufa de secado memmert ULE 600', 'Incubadora de laboratorio SMI6', 'Microscopio Motic RED 220', 'Microscopio Olympus CX22 LED', 'incubadora memmert in110']
+
+roboflow:
+  workspace: pagamos-claude
+  project: microbiologia
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pagamos-claude/microbiologia/dataset/1
